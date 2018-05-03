@@ -1,2 +1,6 @@
 from envirophat import weather
-print(weather.temperature())
+
+import time
+while True:
+    print(weather.temperature())
+    time.sleep(15)
